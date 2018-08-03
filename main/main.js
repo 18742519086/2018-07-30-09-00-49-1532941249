@@ -31,7 +31,7 @@ class Sequence {
   average() {
     // Write your code here
 	var sum = eval(input.join("+"));
-    return ~~(sum/input.length*100)/100;
+      return ~~(sum/input.length*100)/100;
   }
 }
 
